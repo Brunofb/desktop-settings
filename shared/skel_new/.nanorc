@@ -1,0 +1,10 @@
+set autoindent
+set tabsize 4
+set tabstospaces
+set brackets ""')>]}"
+set matchbrackets "(<[{)>]}"
+set morespace
+set multibuffer
+set smooth
+
+include ~/.nano/syntax/ALL.nanorc

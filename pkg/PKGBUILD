@@ -1,0 +1,24 @@
+# Maintainer: Demiray Muhterem <tulliana@archman.org>
+
+pkgname=archman-base-skel
+pkgver=20170215
+pkgrel=1
+pkgdesc='Archman default configuration files'
+arch=('any')
+url="https://github.com/Archman-os/desktop-settings"
+license=('GPL')
+makedepends=('git')
+source=("git+$url.git")
+sha256sums=('SKIP')
+install=$pkgname.install
+depends=('')
+conflicts=('')
+
+pkgver() {
+	date +%Y%m%d
+}
+
+package() {
+	install -d $pkgdir/etc
+	cp -r $srcdir/desktop-settings/shared/skel_new $pkgdir/etc
+}

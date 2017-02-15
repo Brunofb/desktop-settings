@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-notifyd" version="1.0">
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value="de.twotoasts.midori_da6165cc04aefcaf86f0df01011d731d_fea087517c26fadd409bd4b9dc642555__0"/>
+      <value type="string" value="Güncelleme Yöneticisi"/>
+      <value type="string" value="nm-applet"/>
+    </property>
+  </property>
+</channel>
