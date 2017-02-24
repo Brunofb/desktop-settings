@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=HexChat (Canlı Destek)
+Name=HexChat
 Name[de]=HexChat
 Name[en_GB]=HexChat
 Name[es]=HexChat
@@ -53,7 +53,7 @@ Comment[pt]=Conversa com outras pessoas online
 Comment[pt_BR]=Converse com outras pessoas na rede
 Comment[sq]=Bisedoni në linjë me persona të tjerë
 Comment[sv]=Chatta med andra människor online
-Comment[tr]=İnsanlar ile çevrimiçi sohbet
+Comment[tr]=Sohbet ve Yardımlaşma
 Comment[zh_CN]=与其他人在线聊天
 Keywords=IM;Chat;
 Keywords[de]=IM;Chat;
@@ -80,6 +80,8 @@ StartupNotify=true
 X-GNOME-UsesNotifications=true
 MimeType=x-scheme-handler/irc;x-scheme-handler/ircs;
 Actions=SafeMode;
+
+Name[tr_TR.utf8]=HexChat
 
 [Desktop Action SafeMode]
 Name=Open Safe Mode
